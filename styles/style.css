@@ -4,6 +4,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* Top Banner styles */
 header {
     height: 800px;
 }
@@ -22,7 +23,7 @@ header {
     justify-content: flex-end;
     align-items: flex-end;
     width: 600px;
-    padding: 200px 50px 150px 700px;
+    padding: 200px 50px 150px 600px;
 }
 
 .banner-title {
@@ -48,4 +49,46 @@ header {
     border-radius: 5px;
     font-size: 18px;
     font-weight: 500;
+}
+
+/* Failure Styles */
+.failure{
+    height: 800px;
+    padding: 100px 200px;
+}
+
+.failure-contents{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.failure-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 15px;
+    color: #0d0c0c;
+}
+
+
+.image img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: #cfcfcf5e;
+    border-radius: 50%;    
+}
+.texts .failure-description{
+    line-height: 28px;
+    font-size: 15px;
+    color: #353535;
+    margin-bottom: 15px;
+}
+
+.failure-points{
+    padding-left: 15px;
+}
+.failure-points i{
+    color: #353535;
 }
