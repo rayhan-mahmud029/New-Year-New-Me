@@ -41,7 +41,7 @@ header {
     margin-bottom: 25px;
 }
 
-.btn-primary{
+.btn-primary {
     padding: 20px 35px;
     color: #ffff;
     background-color: rgb(249, 74, 44);
@@ -52,17 +52,18 @@ header {
 }
 
 /* Failure Styles */
-.failure{
+.failure {
     padding: 100px 200px 0 200px;
 }
 
-.failure-contents{
+.failure-contents {
     display: flex;
     gap: 50px;
     justify-content: center;
     align-items: center;
 }
-.failure-title{
+
+.failure-title {
     font-size: 40px;
     font-weight: 700;
     line-height: 60px;
@@ -71,81 +72,150 @@ header {
 }
 
 
-.image img{
+.image img {
     height: 400px;
     width: 400px;
     border-radius: 50%;
     background-color: #cfcfcf5e;
-    border-radius: 50%;    
+    border-radius: 50%;
 }
-.texts .failure-description{
+
+.texts .failure-description {
     line-height: 28px;
     font-size: 15px;
     color: #353535;
     margin-bottom: 15px;
 }
 
-.failure-points{
+.failure-points {
     padding-left: 15px;
 }
-.failure-points i{
+
+.failure-points i {
     color: #353535;
 }
-.plans{
-    padding: 100px 200px;
+
+.plans {
+    padding: 200px 200px;
     text-align: center;
 }
 
-.section-title{
+.section-title {
     font-size: 35px;
     margin-bottom: 60px;
-    text-align: center;    
+    text-align: center;
 }
-.plans-contents{
+
+.plans-contents {
     display: flex;
     justify-content: space-around;
 }
 
-.plan img{
+.plan img {
     height: 94px;
     width: 94px;
 }
-.plan-title{
+
+.plan-title {
     margin: 10px 0px;
     font-size: 20px;
     color: #151414;
     text-align: center;
 }
-.plan-description{
+
+.plan-description {
     color: #737272;
     text-align: center;
     font-weight: 500;
 }
 
+
 /* Plan Tracker */
-.plan-tracker{
+.plan-tracker {
     padding: 0 100px;
 }
-.track-months{
+
+.track-months {
     display: flex;
     gap: 50px;
     justify-content: space-around;
 }
-.week-title{
+
+.week-title {
     font-size: 20px;
     color: #585555;
 }
 
-.week table{
+.week table {
     padding: 10px 10px;
 }
 
-.week table td{
+.week table td {
     padding: 5px 0;
     border-bottom: 1px solid #ddd;
     font-size: 500;
     color: #767575;
 }
-.week table  td:hover{
+
+.week table td:hover {
     background-color: #D6EEEE;
+}
+
+
+/* Mindset Gradient Banner */
+.mindset-banner {
+    margin: 100px 200px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    height: 180px;
+    padding: 30px 35px;
+    border-radius: 8px;
+}
+
+.mindset-title {
+    font-size: 40px;
+    line-height: 47px;
+    color: white;
+    margin-bottom: 25px;
+}
+.mindset-banner .btn-primary{
+    background-color: rgb(254, 254, 254);
+    color: rgb(255, 62, 28);
+}
+
+
+/* Footer */
+.footer{
+    display: flex;
+    gap: 200px;
+    justify-content: space-evenly;
+    padding: 150px;
+    background-color: #151414;
+    color: #ffff;
+}
+
+.footer h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.footer-description{
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.info-text{
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.links img{
+    padding-right: 20px ;
+}
+.footer .right-side input{
+    padding: 15px 10px;
+    width: 100%;
+    background: 0;
+    border: 1px solid #ebeaea;
+    border-radius: 5px;
+    color: #ebeaea;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
