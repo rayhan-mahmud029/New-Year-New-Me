@@ -53,8 +53,7 @@ header {
 
 /* Failure Styles */
 .failure{
-    height: 800px;
-    padding: 100px 200px;
+    padding: 100px 200px 0 200px;
 }
 
 .failure-contents{
@@ -91,4 +90,62 @@ header {
 }
 .failure-points i{
     color: #353535;
+}
+.plans{
+    padding: 100px 200px;
+    text-align: center;
+}
+
+.section-title{
+    font-size: 35px;
+    margin-bottom: 60px;
+    text-align: center;    
+}
+.plans-contents{
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan img{
+    height: 94px;
+    width: 94px;
+}
+.plan-title{
+    margin: 10px 0px;
+    font-size: 20px;
+    color: #151414;
+    text-align: center;
+}
+.plan-description{
+    color: #737272;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Plan Tracker */
+.plan-tracker{
+    padding: 0 100px;
+}
+.track-months{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+.week-title{
+    font-size: 20px;
+    color: #585555;
+}
+
+.week table{
+    padding: 10px 10px;
+}
+
+.week table td{
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 500;
+    color: #767575;
+}
+.week table  td:hover{
+    background-color: #D6EEEE;
 }
